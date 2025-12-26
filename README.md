@@ -80,7 +80,7 @@ Se agregarán imágenes y/o GIFs mostrando el funcionamiento de la aplicación.
 
 El repositorio incluye un documento de análisis y diseño con el detalle de requerimientos, reglas de negocio y estados del turno. 
 
-📂 `docs/App_movil_gestion_turnos_medicos.pdf`
+📂 [App movil de gestion de turno medicos.pdf](https://github.com/user-attachments/files/24351478/App.movil.de.gestion.de.turno.medicos.pdf)
 
 ---
 
