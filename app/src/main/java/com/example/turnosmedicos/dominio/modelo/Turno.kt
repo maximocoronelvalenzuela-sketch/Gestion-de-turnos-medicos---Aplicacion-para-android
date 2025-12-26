@@ -2,7 +2,7 @@ package com.example.turnosmedicos.dominio.modelo
 
 import java.time.LocalDateTime
 
-data class Turno(
+class Turno(
     val id: String,
     val pacienteId: String,
     val profesionalId: String,
