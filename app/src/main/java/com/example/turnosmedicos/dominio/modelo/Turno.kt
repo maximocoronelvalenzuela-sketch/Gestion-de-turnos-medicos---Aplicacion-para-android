@@ -11,6 +11,21 @@ class Turno(
     val estadoResolucion: EstadoResolucion = EstadoResolucion.PENDIENTE
 ) {
 
+    companion object {
+        fun crear(
+            paciente: Paciente,
+            profesional: Profesional,
+            fechaHora: LocalDateTime = LocalDateTime.now()
+        ): Turno {
+            return Turno(
+                id = java.util.UUID.randomUUID().toString(),
+                paciente = paciente,
+                profesional = profesional,
+                fechaHora = fechaHora
+            )
+        }
+    }
+
     fun estaVencido(ahora: LocalDateTime = LocalDateTime.now()): Boolean {
         return fechaHora.isBefore(ahora)
     }
